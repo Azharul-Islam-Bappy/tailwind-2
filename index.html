@@ -7,8 +7,54 @@
     <link rel="stylesheet" href="./dist/nav.css" title="navbar stylesheet" />
     <link rel="stylesheet" href="./dist/style.css" title="navbar stylesheet" />
     
+    <style type="text/css">
+      header{
+        background-image: url('assets/Background.png');
+        background-position: cover;
+        b
+      }
+    </style>
   </head>
-  <body>
-    body
+  <body class="relative">
+    
+    <header class="w-[100vw] h-[20rem] lg:h-[25vh] bg-no-repeat">
+      <div class="py-[1rem] px-[0.8rem] flex justify-between items-center sticky top-0 z-10 bg-white">
+        
+        <img id="logo" class="w-[8rem]" src="assets/Loog.png">
+        <button id="menu-toggle" class="border-0 outline-0 order-last lg:hidden"><i class="fa-solid fa-bars text-2xl"></i></button>
+    
+    
+        <nav id="nav-menu" class="hidden fixed top-0 left-0 z-50 lg:relative lg:flex lg:w-auto lg:h-auto w-[96%] h-screen pt-[1rem] mt-1.5 transition-all order-last lg:order-2 backdrop-blur-lg lg:backdrop-blur-none bg-white">
+      <ul class="flex flex-col lg:flex-row lg:gap-[6] justify-between gap-[0.8rem] text-2xl font-light">
+        <div class="px-[1rem] flex justify-between items-center gap-1.5 mb-[1.2rem] lg:hidden">
+          <img class=" w-[8rem]" src="assets/Loog.png">
+          <i id="close-menu" class="fa-solid fa-xmark text-3xl"></i>
+        </div>
+        <li class="px-[1.2rem] drop-shadow-xl"><a href="#">Home</a></li>
+        <li class="px-[1.2rem]"><a href="#">About Us</a></li>
+        <li class="px-[1.2rem] text-[#ff5331]"><a href="#">Skills</a></li>
+        <li class="px-[1.2rem]"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+        <button  id="btn_" class="rounded-2xl px-[0.8rem] py-[0.5rem] bg-[#ff5331] lg:order-last lg:visible">Register Interest</button>
+      </div>
+
+    </header>
+    
+    <main class="">
+      
+      <div class="flex flex-col lg:flex-row lg:justify-between">
+        <div class="">
+          <h3 class="">At <span  class="text-[#ff5331] underline  underline-offset-[8px]  decoration-[1.5px]  ">C4U</span>,<br />we empower:</h3>
+        </div>
+        <div class="flex flex-col justify-between ">
+          <div></div>
+        </div>
+        
+        
+      </div>
+      
+    </main>
+    
   </body>
 </html>
