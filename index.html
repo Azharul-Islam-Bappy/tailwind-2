@@ -1,54 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creatives ForYou</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./dist/nav.css" title="navbar stylesheet" />
     <link rel="stylesheet" href="./dist/style.css" title="navbar stylesheet" />
-    
     <style type="text/css">
-      header{
+      header {
         background-image: url('assets/Background.png');
         background-position: cover;
-        b
       }
     </style>
   </head>
   <body class="relative">
-    
-    <header class="w-[100vw] h-[20rem] lg:h-[25vh] bg-no-repeat">
-      <div class="py-[1rem] px-[0.8rem] flex justify-between items-center sticky top-0 z-10 bg-white">
-        
-        <img id="logo" class="w-[8rem]" src="assets/Loog.png">
-        <button id="menu-toggle" class="border-0 outline-0 order-last lg:hidden"><i class="fa-solid fa-bars text-2xl"></i></button>
-    
-    
-        <nav id="nav-menu" class="hidden fixed top-0 left-0 z-50 lg:relative lg:flex lg:w-auto lg:h-auto w-[96%] h-screen pt-[1rem] mt-1.5 transition-all order-last lg:order-2 backdrop-blur-lg lg:backdrop-blur-none bg-white">
-      <ul class="flex flex-col lg:flex-row lg:gap-[6] justify-between gap-[0.8rem] text-2xl font-light">
-        <div class="px-[1rem] flex justify-between items-center gap-1.5 mb-[1.2rem] lg:hidden">
-          <img class=" w-[8rem]" src="assets/Loog.png">
-          <i id="close-menu" class="fa-solid fa-xmark text-3xl"></i>
-        </div>
-        <li class="px-[1.2rem] drop-shadow-xl"><a href="#">Home</a></li>
-        <li class="px-[1.2rem]"><a href="#">About Us</a></li>
-        <li class="px-[1.2rem] text-[#ff5331]"><a href="#">Skills</a></li>
-        <li class="px-[1.2rem]"><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
-        <button  id="btn_" class="rounded-2xl px-[0.8rem] py-[0.5rem] bg-[#ff5331] lg:order-last lg:visible">Register Interest</button>
+    <header class="w-full h-[20rem] lg:h-[25vh] bg-no-repeat">
+      <div class="py-4 px-4 flex justify-between items-center sticky top-0 z-10 bg-white">
+        <img id="logo" class="w-32" src="assets/Loog.png">
+        <button id="menu-toggle" class="border-0 outline-0 order-last lg:hidden">
+          <i class="fa-solid fa-bars text-2xl"></i>
+        </button>
+        <nav id="nav-menu" class="hidden fixed top-0 left-0 z-50 lg:relative lg:flex lg:w-auto lg:h-auto w-[96%] h-screen pt-4 mt-2 transition-all order-last lg:order-2 backdrop-blur-lg lg:backdrop-blur-none bg-white">
+          <ul class="flex flex-col lg:flex-row lg:gap-6 justify-between gap-4 text-xl font-light">
+            <div class="px-4 flex justify-between items-center gap-4 mb-4 lg:hidden">
+              <img class="w-32" src="assets/Loog.png">
+              <i id="close-menu" class="fa-solid fa-xmark text-3xl"></i>
+            </div>
+            <li class="px-4 drop-shadow-xl"><a href="#">Home</a></li>
+            <li class="px-4"><a href="#">About Us</a></li>
+            <li class="px-4 text-[#ff5331]"><a href="#">Skills</a></li>
+            <li class="px-4"><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <button id="btn_" class="rounded-2xl px-4 py-2 bg-[#ff5331] lg:order-last lg:visible">Register Interest</button>
       </div>
-
     </header>
-    
-    <main class="">
-      
+
+    <main class="bg-[#f0f0f0]">
       <!-- Section Title -->
       <div class="flex flex-col lg:flex-row lg:justify-between text-center py-6">
         <h3 class="text-2xl lg:text-start ms-[8%] font-bold">
           At <span class="text-[#ff5331] underline underline-offset-4 decoration-2">C4U</span>,<br />we empower:
         </h3>
       </div>
+
       <!-- Responsive Card Section -->
       <div class="container mx-auto px-6 py-8">
         <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -87,8 +83,7 @@
         </div>
       </div>
       
-      
-       <!-- container for the next three section -->
+      <!-- container for the next three section -->
       <div class="flex flex-col lg:px-[8%]">
         
         <!-- mission section -->
@@ -170,7 +165,6 @@
         </div>
       </div>
       
-      <!-- The team member section -->
       <div class="lg:ps-[3rem] ps-[1rem] my-[3.5rem]">
         <h5 class="font-bold text-3xl mb-[2rem]">The Creative Team <br />behind <span class="text-[#ff5331]">the door</span> </h5>
         
@@ -222,10 +216,9 @@
           
         </div>
       </div>
-      
     </main>
     
-    <!-- footer section -->
+    
     <footer  class="bg-white text-black pt-[1.5rem] px-[1rem]">
      <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 md:gap-4">
       <div class="flex flex-col gap-4  text-base">
@@ -268,5 +261,7 @@
       </div>
       <p class="py-[1.5rem] border-t-[1.2px] border-black mt-[10px] text-center">Copyright 2022 CreativesFor You Ltd.</p>
     </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   </body>
 </html>

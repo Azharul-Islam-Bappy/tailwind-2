@@ -491,16 +491,8 @@
   text-decoration-thickness: 2px
 }
 
-.decoration-\[1\.5px\] {
-  text-decoration-thickness: 1.5px
-}
-
 .underline-offset-4 {
   text-underline-offset: 4px
-}
-
-.underline-offset-\[8px\] {
-  text-underline-offset: 8px
 }
 
 .shadow-lg {
